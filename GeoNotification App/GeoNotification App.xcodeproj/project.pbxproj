@@ -23,6 +23,8 @@
 		4EF1DD44165DB6C400F34970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF1DD1F165DB6C400F34970 /* Foundation.framework */; };
 		4EF1DD4C165DB6C500F34970 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EF1DD4A165DB6C400F34970 /* InfoPlist.strings */; };
 		4EF1DD4F165DB6C500F34970 /* GeoNotification_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF1DD4E165DB6C500F34970 /* GeoNotification_AppTests.m */; };
+		4EF1DD5D165DBBC500F34970 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF1DD5C165DBBC500F34970 /* CoreLocation.framework */; };
+		4EF1DD5F165F04F600F34970 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF1DD5E165F04F600F34970 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		4EF1DD4B165DB6C400F34970 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EF1DD4D165DB6C500F34970 /* GeoNotification_AppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoNotification_AppTests.h; sourceTree = "<group>"; };
 		4EF1DD4E165DB6C500F34970 /* GeoNotification_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoNotification_AppTests.m; sourceTree = "<group>"; };
+		4EF1DD5C165DBBC500F34970 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4EF1DD5E165F04F600F34970 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF1DD5F165F04F600F34970 /* MapKit.framework in Frameworks */,
+				4EF1DD5D165DBBC500F34970 /* CoreLocation.framework in Frameworks */,
 				4EF1DD1E165DB6C400F34970 /* UIKit.framework in Frameworks */,
 				4EF1DD20165DB6C400F34970 /* Foundation.framework in Frameworks */,
 				4EF1DD22165DB6C400F34970 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +93,8 @@
 		4EF1DD0E165DB6C400F34970 = {
 			isa = PBXGroup;
 			children = (
+				4EF1DD5E165F04F600F34970 /* MapKit.framework */,
+				4EF1DD5C165DBBC500F34970 /* CoreLocation.framework */,
 				4EF1DD23165DB6C400F34970 /* GeoNotification App */,
 				4EF1DD47165DB6C400F34970 /* GeoNotification AppTests */,
 				4EF1DD1C165DB6C400F34970 /* Frameworks */,
